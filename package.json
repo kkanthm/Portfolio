@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nostalgic-hugle-9075ed.netlify.app/",
+  "homepage": "https://nostalgic-hugle-9075ed.netlify.app/public/index.html",
   "name": "sanjita12.github.io",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "master -b master -d build",
+    "deploy": "origin -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
