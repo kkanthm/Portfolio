@@ -13,7 +13,7 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
+//import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
@@ -52,7 +52,7 @@ export default class Main extends Component {
           <Achievement />
           <Blogs />
           <Talks />
-          <Twitter />
+
           <Podcast />
           <Profile />
           <Footer />

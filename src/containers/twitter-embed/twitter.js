@@ -1,6 +1,6 @@
 import React, { Suspense, setState, useContext } from "react";
 import "./twitter.css";
-import Loading from "../loading/Loading";
+/*import Loading from "../loading/Loading";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { twitterDetails } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -45,4 +45,4 @@ export default function Twitter() {
   } else {
     return null;
   }
-}
+} */
